@@ -51,8 +51,8 @@ The interfaces for 'beforeRequest' and 'afterResponse' are the same as in the [H
 config:
   target: "driver://user:pass@hostname/database"
   phases:
-    arrivalCount: 10
-    duration: 1
+    - arrivalCount: 10
+      duration: 1
   engines:
     sql: {}
 
